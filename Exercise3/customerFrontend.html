@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Customer Interaction</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="formChecker.js"></script>
+  </head>
+  <body>
+    <h1>Bits Please Inc.</h1><br>
+    <form action="customerBackend.php" method="post">
+      <h2>User Login</h2>
+        <p id="username">Username: </p><input type="text" name="username"><br>
+        <p id="password">Password: </p><input type="password" name="pass"><br><br>
+      <h2>Items</h2>
+        <input type="checkbox" name="Item" value="Box">A 1 meter Cube - $10 dollars<br>
+        <input type="checkbox" name="Item" value="Circle">A 1 meter radius Circle - $20 dollars<br>
+        <input type="checkbox" name="Item" value="Triangle">A 1 meter high Triange - $30 dollars<br><br>
+      <h2>Shipping Options</h2>
+        <input type="radio" name="Shipping" value="7Day">7 Day Free Shipping<br>
+        <input type="radio" name="Shipping" value="3Day">3 Day $5.00 Shipping<br>
+        <input type="radio" name="Shipping" value="overNight">Overnight $50.00 Shipping<br><br>
+      <button type="submit">Submit Order</button>
+    </form>
+  </body>
+</html>
